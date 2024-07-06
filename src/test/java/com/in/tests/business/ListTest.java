@@ -48,7 +48,7 @@ public class ListTest {
 
         //when
         String firstElement = (String) listMock.get(0);
-
+ 
         //then
         assertThat(firstElement, is("Set Values"));
 
